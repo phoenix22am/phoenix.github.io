@@ -1,0 +1,54 @@
+.fun {
+    position: relative;
+    height: 700px;
+    background: url(../../../CSS3进阶素材-包含小熊动画/media/bg2.png) repeat-x ;
+    animation: move 100s linear infinite;
+    margin-top: 100px;
+  
+}
+
+.snow {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 500px;
+    background: url(../../../CSS3进阶素材-包含小熊动画/media/bg1.png) repeat-x ;
+    animation: move 24s linear infinite;
+}
+
+.bear {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background: url(../../../CSS3进阶素材-包含小熊动画/media/bear.png) no-repeat;
+    animation: bear 1s steps(8) infinite, run 3s forwards;
+}
+
+@keyframes bear {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1600px 0;
+    }
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -3840px 0;
+    }
+}

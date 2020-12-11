@@ -1,0 +1,58 @@
+{
+  "id": "2254131",
+  "name": "ico",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5030",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "18609311",
+      "name": "资源 79",
+      "font_class": "ziyuan79",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18609314",
+      "name": "资源 82",
+      "font_class": "ziyuan82",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "18622528",
+      "name": "记录",
+      "font_class": "jilu",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "18622562",
+      "name": "资源 394",
+      "font_class": "ziyuan394",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "18622575",
+      "name": "资源 357",
+      "font_class": "ziyuan357",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4247120",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    }
+  ]
+}
